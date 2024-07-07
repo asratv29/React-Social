@@ -1,0 +1,115 @@
+.profile-bkg {
+  background-color: #f6f8ff;
+}
+label {
+  font-weight: 600;
+  color: #666666;
+  
+}
+#position-stikey-profile-sidebar {
+  position: fixed;
+  top: calc(100vh - 70px);
+  left: 0;
+}
+
+/** Profile top */
+.profile-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3.5rem;
+}
+.profile-setting .profile-setting-left p {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.profile-setting .profile-setting-right button {
+  font-weight: 700;
+  color: white;
+}
+.profile-setting .profile-setting-right button:nth-child(2) {
+  background: rgb(255, 255, 255);
+  border: 1px solid dodgerblue;
+  color: rgb(72, 71, 71);
+}
+/********** */
+.profile-setting-bottom {
+  margin: 1rem 2rem;
+  height: 100vh;
+  background-color: white;
+  border-right: 2px solid #707ec0;
+}
+.profile-setting-bottom .profile-setting-bottom-left {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.profile-setting-bottom .profile-setting-bottom-left ul {
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.profile-setting-bottom .profile-setting-bottom-left ul li {
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  gap: 1.2rem;
+}
+
+.profile-setting-bottom .profile-setting-bottom-left ul li a {
+  margin-bottom: 5px;
+  gap: 1.2rem;
+}
+
+/** personal-setting bottom right */
+
+.profile-setting-right {
+  margin-right: 2rem;
+  border-left: 0.2rem solid rgb(209, 206, 206);
+  margin: 2rem 0;
+}
+.profile-setting-right .general-info-title {
+  margin: auto;
+  padding-bottom: 2.4rem;
+  border-bottom: 0.2rem solid rgb(201, 193, 193);
+}
+.profile-setting-right .general-info-title h3 {
+  margin-left: 3.5rem;
+  font-weight: 700;
+}
+.profile-picture h5 {
+  margin-left: 3.5rem;
+  margin-top: 0.8rem;
+}
+.profile-setting-right .profile-picture-info {
+  margin-left: 3.5rem;
+}
+.profile-picture-img-and-name {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.pp-name-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pp-name-address p {
+  font-size: 0.879rem;
+  color: #666666;
+  font-weight: 600;
+}
+.pp-name-address .pp-control {
+  margin-top: 3.5rem;
+}
+.pp-control button {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.pp-control button:nth-child(2) {
+  background: white;
+  border: 3px solid rgb(0, 0, 255);
+  color: rgb(0, 0, 255);
+  margin-left: 0.589rem;
+}

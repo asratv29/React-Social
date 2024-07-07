@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.Messages {
+  margin: 10px;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 10px 5px;
+}
+.message-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0 5px;
+}
+.message-top h4 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.message-search {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 15px;
+}
+
+.message-search input {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  height: 50px;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 5px;
+  border-radius: 25px;
+}
+.message-search .icon-search {
+  position: absolute;
+  left: 22px;
+  top: 16px;
+}
+.border {
+  height: 2px;
+  width: 100%;
+  background: rgb(154, 149, 149);
+  margin: 19px auto;
+}
+
+.message .user {
+  position: relative;
+}
+
+.green-active {
+  height: 10px;
+  width: 10px;
+  background-color: #02ff0f;
+  position: absolute;
+  bottom: 1.2rem;
+  right: 0;
+  border-radius: 50%;
+}
+
+.message {
+  display: flex;
+  gap: 15px;
+}
+.message-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-size: 14px;
+}
+.message-body p {
+  font-size: 14px;
+  color: #6f6b6b;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,19 @@
+.all-users{
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.all-users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.filter-userss{
+    display: flex;
+    justify-content: space-evenly;
+}
+.filter-userss select {
+    width: 60%;
+}

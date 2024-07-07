@@ -1,0 +1,31 @@
+.main-container-vp {
+  position: relative;
+}
+.wrapper-container {
+  position: relative;
+  background: #f4f6ff;
+
+  flex-direction: row;
+  padding-top: 4rem;
+}
+
+.vp-left {
+  background: #fff;
+}
+
+.vp-right {
+  background: #f8f8f8;
+  flex-direction: column;
+padding-left: 5rem;
+}
+
+img {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.vp-name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}

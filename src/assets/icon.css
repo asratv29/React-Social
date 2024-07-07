@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon, .logo-name {
+    padding: 10px;
+    font-size: 20px;
+}

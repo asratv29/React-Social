@@ -1,0 +1,85 @@
+.wrapper {
+  margin: 8px 0px;
+  border-radius: 20px;
+  font-size: 18px;
+  height: 100%;
+  padding-top: 30px;
+  position: sticky;
+  top: 100px;
+  background-color: #f4f4f4;
+}
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+#sidebar.expand {
+  width: 100%;
+}
+#sidebar button {
+  margin: 10px auto;
+  border: none;
+}
+
+#sidebar button i {
+  font-size: 1.8rem;
+}
+li {
+  display: block;
+  width: 100%;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-nav-top li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 30px;
+  width: 100%;
+
+  transition: all 0.3s ease-in;
+}
+a.sidebar-link:hover {
+  background-color: #4f80e1;
+  border-radius: 5px;
+  color: white;
+}
+
+.i-t {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sidebar-link-dropdown-group {
+  position: relative;
+  right: inherit;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+a.link-display:hover {
+  width: 100%;
+}
+
+.sidebar-nav-bottom .sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 30px;
+}

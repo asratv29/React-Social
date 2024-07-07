@@ -1,0 +1,60 @@
+.friend-request {
+  width: 100%;
+}
+.request-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: auto;
+}
+.border-request {
+  width: 80%;
+  border-bottom: 3px solid rgb(88, 87, 87);
+  margin: 5px auto;
+}
+.request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  margin: 10px;
+  width: 100%;
+}
+.info .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.request .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: rgb(55, 53, 53);
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.btn-accept {
+  background-color: rgb(29, 112, 201);
+  font-weight: 700;
+  color: white;
+}
+.btn-decline {
+  background-color: rgb(234, 46, 46);
+  font-weight: 700;
+  color: white;
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}

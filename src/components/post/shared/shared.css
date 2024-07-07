@@ -1,0 +1,60 @@
+.green-active {
+  height: 10px;
+  width: 10px;
+  background-color: #02ff0f;
+  border-radius: 50%;
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+.feeds {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 1.8rem;
+  margin-bottom: 10px;
+}
+.feed {
+  padding: 20px;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color: #f6f8ff
+}
+
+.feed .top-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.feed .top-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.feed p {
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.feed .bottom-content {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.feed .mid-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}

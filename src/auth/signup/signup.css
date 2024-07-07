@@ -1,0 +1,37 @@
+#container {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container-signup {
+  background-color: white;
+  width: 40%;
+  height: 70%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 30px;
+}
+.register {
+  color: rgb(58, 101, 155);
+  font-weight: 800;
+}
+.button-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button-control input {
+  height: 50px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 10px;
+}

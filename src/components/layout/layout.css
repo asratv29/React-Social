@@ -1,0 +1,28 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.feed-and-side_control {
+  display: grid;
+  grid-template-columns: 22% 50% 23%;
+  gap: 2rem;
+
+  position: relative;
+  z-index: 1;
+}
+
+.feed-and-side_control .left-side {
+  position: relative
+}
+
+.feed-and-side_control .middle-side {
+  position: relative;
+}
+
+.feed-and-side_control .right-side {
+  position: relative;
+}
